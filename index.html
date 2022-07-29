@@ -1,24 +1,85 @@
-<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam illum
-      accusamus dolores neque libero tempore quisquam obcaecati facilis, ea ipsa
-      alias distinctio ducimus explicabo! Necessitatibus quam excepturi modi
-      quaerat ipsa?
-    </p>
-    <p>
-      <ol>
-        <li>atef</li>
-         <li>yosr</li>
-          <li>yousra</li>
-      </ol>
-    </p>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <title>Nik store</title>
+</head>
+<body>
+    <nav>
+        <div class="navtop">
+        <div class="navitem"> 
+        <span class="Sneakers">.Sneakers</span></div>
+    
+     <div class="navitem"> 
+    <div class="search">
+            <input type="text" placeholder="Search.."class="searchitem"/>
+             <img src="./img/téléchargement.png" width="30" height="30" alt="" class="searchicon"/>
+    </div>
+    </div>
+
+<div class="navitem">
+    <span class="limetedoff">Limeted Off</span>
+</div>
+ </div>  
+  
+     <div class="navbottom">
+     <a onclick="currentSlide(1)" class="menuitem">AIRFORCE </a>
+     <a  onclick="currentSlide(2)" class="menuitem"> JORDAN</a>
+     <a  onclick="currentSlide(3)" class="menuitem">BLAZER </a>
+     <a  onclick="currentSlide(4)" class="menuitem">CRATER </a>
+     <a  onclick="currentSlide(5)" class="menuitem">HIPPIE </a>
+    
+    </div>
+    </nav>
+<div class="slider">
+ <div class="slideshow-container">
+ <div id="airforce" class="mySlides">
+ <img src="./img/ai.png" alt="" class="sliderimg"/>
+ <div class="bg">  </div>
+ <h1 class="slidertitre"> AIRFORCE</br>NEW </br>SEASON  </h1>
+ <h2 class="sliderprice">$119</h2>
+<button class="bybuttom">BY NOW!</button> 
+</div>
+ <div id="jordan" class="mySlides">
+<img src="./img/jarden.png" alt="" class="sliderimg"/>
+<div class="bg">  </div>
+ <h1 class="slidertitre"> JORDAN</br>NEW </br>SEASON  </h1>
+ <h2 class="sliderprice">$119</h2>
+<button class="bybuttom">BY NOW!</button> 
+
+</div>
+ <div id="blazer" class="mySlides">
+<img src="./img/blazer.png" alt="" class="sliderimg"/>
+<div class="bg">  </div>
+ <h1 class="slidertitre"> BLAZER</br>NEW </br>SEASON  </h1>
+<h2 class="sliderprice">$119</h2>
+<button class="bybuttom">BY NOW!</button> 
+
+</div>
+<div id="crater" class="mySlides">
+ <img src="./img/crate.png" alt="" class="sliderimg"/>
+ <div class="bg">  </div>
+ <h1 class="slidertitre"> CRATER</br>NEW </br>SEASON  </h1>
+ <h2 class="sliderprice">$119</h2>
+  <button class="bybuttom">BY NOW!</button> 
+
+</div>
+ <div id="hippie" class="mySlides">
+ <img src="./img/space-hippie-04-shoe-w5Wlg4.png" alt="" class="sliderimg"/>
+ <div class="bg">  
+ <h1 class="slidertitre"> HIPPIE</br>NEW </br>SEASON  </h1>
+ <h2 class="sliderprice">$119</h2>
+ <button class="bybuttom">BY NOW!</button> 
+ <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>          
+</div>
+ </div>
+</div>
+<script src="./app.js"></script>
+
+</body>
 </html>

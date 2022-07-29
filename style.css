@@ -1,0 +1,121 @@
+body {
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+nav {
+  background-color: #111;
+  color: white;
+  padding: 20px 50px;
+}
+.navtop {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.search {
+  display: flex;
+  align-items: center;
+  background-color: gray;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+.searchitem {
+  border: none;
+  background: transparent;
+}
+.searchitem::placeholder {
+  color: lightgray;
+}
+.limetedoff {
+  font-size: 20px;
+  border-bottom: 2px solid green;
+  cursor: pointer;
+}
+.sneakers {
+  font-size: 40px;
+  display: flex;
+  justify-content: left;
+  font-weight: bold;
+  align-items: center;
+}
+.navbottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menuitem {
+  margin-right: 50px;
+  cursor: pointer;
+  color: lightgray;
+  font-weight: 400;
+}
+.slider {
+  background: url("./img/blac.png");
+  height: 90vh;
+}
+
+.sliderwrapper {
+  display: flex;
+  width: 500vw;
+  justify-content: space-around;
+  position: relative;
+}
+
+.mySlides {
+  display: flex;
+  justify-content: space-around;
+}
+
+.slideritem {
+  width: 100vw;
+
+  position: relative;
+}
+
+.slidertitre {
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  color: white;
+  font-size: 60px;
+  font-weight: 900;
+  text-align: center;
+  z-index: 1;
+}
+.sliderprice {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  color: white;
+  font-size: 60px;
+  font-weight: 300;
+  text-align: center;
+  border: 1px solid green;
+  z-index: 1;
+}
+.sliderimg {
+  z-index: 1;
+  position: absolute;
+  left: 30vw;
+}
+.bybuttom {
+  position: absolute;
+  top: 80%;
+  right: 10%;
+  color: white;
+  font-size: 30px;
+  font-weight: 900;
+  text-align: center;
+  background-color: #111;
+  border: 1px solid green;
+  z-index: 1;
+  cursor: pointer;
+}
+.bybuttom:hover {
+  background-color: aliceblue;
+  color: #111;
+}
+.slideritem:nth-child(2) {
+  background-color: rgb(37, 14, 138);
+}
